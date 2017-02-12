@@ -1,0 +1,174 @@
+$navbar-height: 64px;
+$text: #222222;
+$text-gray: #7a7f94;
+$bg-light: #fafafa;
+$accent-color: #F50057;
+
+body {
+  font-family: 'Open Sans';
+}
+
+.link {
+  /*color: $accent-color;*/
+  color: #606c76;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.itatic {
+  font-style: italic;
+}
+
+.navbar {
+  height: $navbar-height;
+  background: $bg-light;
+  -webkit-transition: top 1s; /* Safari */
+  transition: top 1s;
+}
+
+.navbar.hidden {
+  top: -100px;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 2;
+}
+
+.navbar-header {
+  float:left;
+
+  .navbar-brand {
+    line-height: $navbar-height;
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px 32px;
+    color: black;
+    letter-spacing: 3px;
+  }
+}
+
+.navbar.navbar-dark {
+  background: #070B19;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .nav-item a {
+      color: white;
+    }
+}
+
+.font-title {
+  font-family: 'Archivo Narrow';
+}
+.navbar-nav {
+  list-style: none;
+  float: right;
+  margin: 0px;
+  margin-right: 16px;
+}
+.nav-item {
+  float:left;
+
+  a {
+    line-height: $navbar-height;
+    color:$text;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    letter-spacing: 1.5px;
+  }
+
+  a:hover {
+    border-bottom: 3px solid #F50057;
+  }
+}
+
+
+.intro-content {
+  padding-left: 32px;
+}
+
+.brand-heading {
+  color: $text;
+  padding-top: 18vh;
+  margin: 0px;
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+
+.intro-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: $text-gray;
+  letter-spacing: 1.5px;
+}
+
+.intro-quote {
+  padding-left: 32px;
+  font-size: 20px;
+  font-style: italic;
+  color: $text-gray;
+}
+
+.more-button {
+  padding-left: 108px;
+}
+
+.main-section {
+  height: 100vh;
+
+  .row {
+    height: 100%;
+  }
+}
+  .main-section.dark p {
+    color: white;
+  }
+
+  .main-section.light {
+    p {
+      color: $text;
+    }
+
+    .section-title, .section-subtitle {
+      color: $text;
+    }
+  }
+
+.section-title {
+  font-size: 48px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+  .section-title.white {
+    color: white;
+  }
+
+.section-subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.about-content {
+  color: white;
+  padding: 112px 96px;
+  padding-bottom: 56px;
+}
