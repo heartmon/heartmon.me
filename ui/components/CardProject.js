@@ -1,19 +1,28 @@
 import React from 'react';
+// import ReactDOMServer from 'react-dom/server'
 import Dialog from 'material-ui/Dialog'
 import FlatButton from 'material-ui/FlatButton'
 import Chip from 'material-ui/Chip'
 import Avatar from 'material-ui/Avatar'
 import {defaultTags} from '~/utils'
+import { StyleSheetServer, StyleSheet, css } from 'aphrodite'
+import { colors, spacing, viewport } from '~/styles/settings'
+import Radium from 'radium'
+
+import { mediaQueries } from '~/utils/styles'
+
+
+// Style objects specific for CardProject
+const customContentStyle = {
+    // width: '90%',
+    // maxWidth: 'none'
+};
 
 class CardProject extends React.Component {
-  // constructor(props) {
-  //   this.props.tags = [];
-  //   super(props);
-  // }
-
   state = {
     open: false,
   };
+
 
   handleOpen = () => {
     this.setState({open: true});
@@ -26,17 +35,12 @@ class CardProject extends React.Component {
   render() {
     const actions = [
       <FlatButton
-        label="Cancel"
+        label="Close"
         primary={true}
         onTouchTap={this.handleClose}
-      />,
-      <FlatButton
-        label="Submit"
-        primary={true}
-        keyboardFocused={true}
-        onTouchTap={this.handleClose}
-      />,
+      />
     ];
+
 
     const tags = this.props.tags || [];
 
@@ -81,6 +85,18 @@ class CardProject extends React.Component {
           padding: 32px 32px;
           padding-right: 24px;
         }
+        .card-section-text p {
+          color: #222222;
+        }
+
+        @media (max-width: 624px) {
+          .card {
+            height: auto;
+          }
+          .card .logo {
+
+          }
+        }
       `}</style>
 
         <div className="card" onTouchTap={this.handleOpen}>
@@ -92,6 +108,7 @@ class CardProject extends React.Component {
               <div className="title">{this.props.title}</div>
               <div className="subtitle">{this.props.subtitle}</div>
               <div className="year">{this.props.year}</div>
+              <p>{this.props.desc}</p>
             </div>
           </div>
         {/*  <div className="tech">
@@ -114,6 +131,7 @@ class CardProject extends React.Component {
           open={this.state.open}
           onRequestClose={this.handleClose}
           autoScrollBodyContent={true}
+          contentStyle={customContentStyle}
         >
           {this.props.children}
         </Dialog>
@@ -122,4 +140,5 @@ class CardProject extends React.Component {
   }
 }
 
-export default CardProject;
+
+export default Radium(CardProject);

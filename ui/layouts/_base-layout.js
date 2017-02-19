@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-const BaseLayout = ({ children, title = 'This is the default title' }) => (
+const BaseLayout = ({ children, title = 'heartmon.me' }) => (
   <div>
     <Head>
       <title>{ title }</title>
