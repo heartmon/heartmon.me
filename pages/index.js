@@ -609,7 +609,7 @@ class Home extends React.Component {
                                 </div>
                                 <div className="tags">
                                   <ul>
-                                    <li><Chip>Job project</Chip></li>
+                                    <li><Chip>Full-time project</Chip></li>
                                     <li><Chip>JavaScript</Chip></li>
                                     <li><Chip>AngularJS</Chip></li>
                                     <li><Chip>Ionic</Chip></li>
@@ -759,7 +759,7 @@ class Home extends React.Component {
                               </div>
                               <div className="tags">
                                 <ul>
-                                  <li><Chip>Job project</Chip></li>
+                                  <li><Chip>Full-time project</Chip></li>
                                   <li><Chip>JavaScript</Chip></li>
                                   <li><Chip>PHP</Chip></li>
                                   <li><Chip>Code igniter</Chip></li>
