@@ -1,8 +1,8 @@
 import React from 'react'
 import { BookmarkList } from '../../../ui/components'
-import { inject, observer } from 'mobx-react';
+// import { inject, observer } from 'mobx-react';
 
-@inject('BaseStore') @observer
+// @inject('BaseStore') @observer
 class BookmarkContainer extends React.Component {
   render() {
     return (
