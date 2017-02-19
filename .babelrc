@@ -1,7 +1,6 @@
 {
   "plugins": [
     "transform-decorators-legacy",
-    "babel-root-import",
     [
       "wrap-in-js",
       {

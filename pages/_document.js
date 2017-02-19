@@ -1,5 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document'
-import {flush} from '~/utils/applyStyles'
+import {flush} from '../utils/applyStyles'
 
 class MyDocument extends Document {
     render() {

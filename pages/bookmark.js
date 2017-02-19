@@ -1,11 +1,11 @@
-import { initializePage } from '~/utils';
-import { BaseLayout } from '~/ui/layouts'
+import { initializePage } from '../utils';
+import { BaseLayout } from '../ui/layouts'
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ContentAdd from 'material-ui/svg-icons/content/add';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import TextField from 'material-ui/TextField';
-import {BookmarkContainer} from '~/ui/containers/bookmark'
+import {BookmarkContainer} from '../ui/containers/bookmark'
 
 const Bookmark = () => (
     <BaseLayout>

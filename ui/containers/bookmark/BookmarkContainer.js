@@ -1,5 +1,5 @@
 import React from 'react'
-import { BookmarkList } from '~/ui/components'
+import { BookmarkList } from '../../../ui/components'
 import { inject, observer } from 'mobx-react';
 
 @inject('BaseStore') @observer

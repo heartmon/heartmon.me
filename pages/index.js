@@ -1,8 +1,8 @@
-import { initializePage, applyStyles } from '~/utils';
-import { BaseLayout } from '~/ui/layouts'
+import { initializePage, applyStyles } from '../utils';
+import { BaseLayout } from '../ui/layouts'
 import React from 'react'
 import Chip from 'material-ui/Chip'
-import { CardProject } from '~/ui/components';
+import { CardProject } from '../ui/components';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import TextField from 'material-ui/TextField';
 import {pinkA400} from 'material-ui/styles/colors';
