@@ -4,12 +4,12 @@ import Dialog from 'material-ui/Dialog'
 import FlatButton from 'material-ui/FlatButton'
 import Chip from 'material-ui/Chip'
 import Avatar from 'material-ui/Avatar'
-import {defaultTags} from '~/utils'
+import {defaultTags} from '../../utils'
 import { StyleSheetServer, StyleSheet, css } from 'aphrodite'
-import { colors, spacing, viewport } from '~/styles/settings'
+import { colors, spacing, viewport } from '../../styles/settings'
 import Radium from 'radium'
 
-import { mediaQueries } from '~/utils/styles'
+import { mediaQueries } from '../../utils/styles'
 
 
 // Style objects specific for CardProject
