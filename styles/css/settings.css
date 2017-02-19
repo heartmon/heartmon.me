@@ -1,0 +1,29 @@
+/* App/style/css/settings */
+:root {
+  —-clr-watermelon: #4FC1E9;
+  —-spacing-default: 12px;
+}
+
+@custom-media —-viewport-narrow (width >= 31.25em);
+
+/**
+ * Example using settings in 'Generic' layer
+ *
+ * App/styles/css/generic
+ */
+@import 'settings';
+
+dd, ol, ul {
+  margin-left: var(--spacing-default);
+}
+
+/**
+ * Arbitrary escape-hatch styling example
+ *
+ * App/components/SomeComponent/style.css
+ */
+@import 'settings';
+
+.container > *:nth-child(3n + 1) {
+  padding: var( —-clr-watermelon)
+}
