@@ -1,4 +1,4 @@
-import { initializePage, applyStyles } from '../utils';
+import { initializePage } from '../utils';
 import { BaseLayout } from '../ui/layouts'
 import React from 'react'
 import Chip from 'material-ui/Chip'
@@ -1297,4 +1297,4 @@ class Home extends React.Component {
 //     </BaseLayout>
 // );
 //
-export default applyStyles(globalStyle)(initializePage(Home));
+export default initializePage(Home);
