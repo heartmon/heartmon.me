@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { Provider } from 'mobx-react';
-import { initBaseStore, initAuthStore } from '~/stores';
+import { initBaseStore, initAuthStore } from '../stores';
 import { MuiThemeProvider, getMuiTheme } from 'material-ui/styles'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 
