@@ -11,7 +11,7 @@ import FlatButton from 'material-ui/FlatButton';
 import IconButton from 'material-ui/IconButton';
 import NavigationExpandMore from 'material-ui/svg-icons/navigation/expand-more';
 
-import globalStyle from './styles.css';
+// import globalStyle from './styles.css';
 
 class Home extends React.Component {
   componentDidMount() {
@@ -57,7 +57,6 @@ class Home extends React.Component {
   }
 
   render () {
-    console.log(globalStyle);
     const styles = {
       projectsTabs: {
         inkBarStyle: {
