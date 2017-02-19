@@ -689,7 +689,7 @@ class Home extends React.Component {
                             >
                             <div className="project-dialog-content">
                               <div className="img">
-                                <img src="static/projects/content-smt.jpg" />
+                                <img src="static/projects/content-smt.JPG" />
                               </div>
                               <div  className="project-intro">
                                 <p>
@@ -1145,7 +1145,7 @@ class Home extends React.Component {
               </div>
               <div className="hobbies-grid">
                 <div className="hobbies-grid-item img">
-                  <img src="static/hobbies/photography.jpg" />
+                  <img src="static/hobbies/photography.JPG" />
                 </div>
                 <div className="hobbies-grid-item">
                   <div className="hobbies-grid-title font-title">PHOTOGRAPHY</div>
@@ -1158,7 +1158,7 @@ class Home extends React.Component {
                   </p>
                 </div>
                 <div className="hobbies-grid-item">
-                  <img src="static/hobbies/travel.jpg" />
+                  <img src="static/hobbies/travel.JPG" />
                 </div>
                 <div className="hobbies-grid-item">
                   <div className="hobbies-grid-title font-title">TRAVELLING</div>
@@ -1187,7 +1187,7 @@ class Home extends React.Component {
                   </p>
                 </div>
                 <div className="hobbies-grid-item">
-                  <img src="static/hobbies/learning.jpg" />
+                  <img src="static/hobbies/learning.JPG" />
                 </div>
               </div>
             </div>
