@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOMServer from 'react-dom/server'
 import Dialog from 'material-ui/Dialog'
 import FlatButton from 'material-ui/FlatButton'
 import Chip from 'material-ui/Chip'
