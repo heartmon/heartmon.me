@@ -345,7 +345,7 @@ class Home extends React.Component {
               <div className="intro-body">
               <div className="wrap container-fluid">
                 <div className="row middle-md">
-                    <div className="col-md-6 col-md-offset-6 intro-content">
+                    <div className="col-md-6 col-md-offset-6 col-sm-offset-5 intro-content">
                         <h1 className="font-title brand-heading"><span className="bold">HEART</span> KITTIPON</h1>
                         <p className="intro-text">Passionate full-stack developer</p>
                         <p className="intro-quote"></p>
