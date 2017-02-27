@@ -1073,7 +1073,7 @@ class Home extends React.Component {
                                   <div  className="project-intro">
                                     <p>
                                       This project was the first startup project. The project happened during I worked as full-time job after I was graduated.
-                                      I remembered the feeling when we first released the game in facebook and excitedly waited for invited users to test our games. It was funny that it had a lot of bugs and of course resulting in bad impression.
+                                      I remembered the feeling when we first released the game on Facebook and excitedly waited for invited users to test our games. It was funny that it had a lot of bugs and of course resulting in bad impression.
                                       Although we did not totally go that far before we stopped doing this, but I learnt a lot from this; planning, teamwork, dedication, passion and how exciting it was when your game is going to public.
                                       I think dedication and motiviation is very important in order to keep the project continue and succeed.
                                       This project was also the starting point to my iOS developer skill as according to the plan, I would have to implement an iOS version of the game.
@@ -1083,7 +1083,8 @@ class Home extends React.Component {
                                     <h4 className="font-title text-uppercase">My work</h4>
                                     <p>
                                     My work at that time was to design the user interface of the game (except the character design, we hired other to draw it). I designed buttons, icons, forms and organize all of them to get these interfaces.
-                                    I also was responsible to implement iOS application connecting to Java server and used websocket to enable real-time communication for multiplayer.
+                                    I also one of two developers to implement Flash version of the game (using ActionScript 3 at that time) and released the game on Facebook.
+                                    In addition, I was responsible to implement iOS application connecting to Java server and used websocket to enable real-time communication for multiplayer.
                                     Unfortunately, what I did for iOS application was just a prove of concept, not the whole completed game.
                                     </p>
                                   </div>
@@ -1546,7 +1547,8 @@ class Home extends React.Component {
                                   <h4 className="font-title text-uppercase">My work</h4>
                                   <p>
                                   My work at that time was to design the user interface of the game (except the character design, we hired other to draw it). I designed buttons, icons, forms and organize all of them to get these interfaces.
-                                  I also was responsible to implement iOS application connecting to Java server and used websocket to enable real-time communication for multiplayer.
+                                  I also one of two developers to implement Flash version of the game (using ActionScript 3 at that time) and released the game on Facebook.
+                                  In addition, I was responsible to implement iOS application connecting to Java server and used websocket to enable real-time communication for multiplayer.
                                   Unfortunately, what I did for iOS application was just a prove of concept, not the whole completed game.
                                   </p>
                                 </div>
@@ -1756,7 +1758,8 @@ class Home extends React.Component {
                                   <h4 className="font-title text-uppercase">My work</h4>
                                   <p>
                                   My work at that time was to design the user interface of the game (except the character design, we hired other to draw it). I designed buttons, icons, forms and organize all of them to get these interfaces.
-                                  I also was responsible to implement iOS application connecting to Java server and used websocket to enable real-time communication for multiplayer.
+                                  I also one of two developers to implement Flash version of the game (using ActionScript 3 at that time) and released the game on Facebook.
+                                  In addition, I was responsible to implement iOS application connecting to Java server and used websocket to enable real-time communication for multiplayer.
                                   Unfortunately, what I did for iOS application was just a prove of concept, not the whole completed game.
                                   </p>
                                 </div>
