@@ -257,7 +257,7 @@ body {
   }
 
   .main-section.light .section-title, .section-subtitle {
-    color: white;
+    color: #222222;;
   }
 
 .section-title {
@@ -273,6 +273,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1px;
+  color: white;
 }
 
 .about-content {
