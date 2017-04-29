@@ -389,7 +389,7 @@ class Home extends React.Component {
                       <p>
                       As now I am studying, so I am looking for summer internship or summer job in either code or design.
                       From my experiences, my most expert skillset is as a frontend developer.
-                      However, I am now interested in mobile development, game development and user experience.
+                      I am interested in web development, mobile development, game development and user experience.
                       </p>
 
                     </div>
@@ -425,27 +425,26 @@ class Home extends React.Component {
                               subtitle="Game Project"
                               imgSrc="static/projects/cover-mappy.jpg"
                               tags={['ANDROID', 'DESIGN']}
-                              year="2017 (Currently develop)"
+                              year="2017"
                               desc="Re-creation of 90s arcade game - Mappy - using C++ and SDL2 library."
                             >
                             <div className="project-dialog-content">
                               <div className="row">
                                 <div className="col-md-12">
+                                  <div className="img">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ry232MaTN5Y" frameborder="0" allowfullscreen></iframe>
+                                  </div>
                                   <div  className="project-intro">
                                     <p>
                                       Individual project for Game Engine Architecture course. Re-creting the 90s arcade game called Mappy using C++ and SDL2 library.
                                       The focus of the project is to create playable game with nice game architecture.
-                                      I apply Update pattern, Observer pattern and De-coupling pattern to the implemenation of this game.
+                                      I apply Update pattern, Observer pattern, De-coupling pattern and object pool to the implemenation of this game.
                                       For the graphic, I reuse the sprites found from the internet.
                                       <br/>  <br/>
                                       One of the challenge part for me is about collision detection and response especially with the tile map. What I did to solve that is drawing state diagram eleborately
                                       and think about what need to check in each entity state and implement from the bottom-up.
-                                      <br/>
-                                      I also plan to try applying Box2D library if I have time before the deadline of the project.
                                       <br/><br/>
-                                      The project is now in development process. More elaborated code will be updated.
-                                      <br/>
-                                      <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Gitjub project</a>
+                                      <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Github project</a>
                                     </p>
                                   </div>
                                   <div className="img">
