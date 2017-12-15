@@ -420,6 +420,177 @@ class Home extends React.Component {
                     <Tabs className="projects-tabs" tabItemContainerStyle={styles.projectsTabs.tabItemContainerStyle} inkBarStyle={styles.projectsTabs.inkBarStyle}>
                       <Tab className="projects-tab" label="DESIGN & DEVELOP" >
                         <div className="row projects-card-list-container">
+                         <CardProject
+                            title="Instamusic"
+                            subtitle="Spotify devX Project"
+                            imgSrc="static/projects/cover-instamusic.jpg"
+                            tags={['WEB', 'DESIGN']}
+                            year="2017"
+                            desc="Project in Spotify devX event @ Stockholm 17-19 Nov 2017"
+                          >
+                          <div className="project-dialog-content">
+                            <div className="row">
+                              <div className="col-md-12">
+                                <div  className="project-intro">
+                                  <h4>About the project</h4>
+                                  <p>
+                                    The idea of the event is to make use of Spotify API to create something innovative and fun.
+                                    My project is called Instamusic - tag the music for your picture.
+                                    Instead of posting only picture or music, we thought that it would be nice to express your mood of your picture
+                                    with the special hashtag that can play the music by clicking on it!.
+                                    The value of hashtag will be sent to Spotify API to select the songs for users.
+                                  </p>
+                                  <h4>What I contribute to and learn</h4>
+                                  <p>
+                                    
+                                  </p>
+                                </div>
+                                <div className="img">
+                                  <img src="static/projects/content-instamusic1.jpg" />
+                                  <div className="text-center">Example of the image post with special hashtag</div>
+                                </div>
+                                <div className="tags">
+                                  <ul>
+                                    <li><Chip>Javascript</Chip></li>
+                                    <li><Chip>ReactJS</Chip></li>
+                                    <li><Chip>Web development</Chip></li>
+                                    <li><Chip>Hackathon</Chip></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </CardProject>
+
+                         <CardProject
+                            title="FarmKampen"
+                            subtitle="Game Project"
+                            imgSrc="static/projects/cover-mappy.jpg"
+                            tags={['ANDROID', 'DESIGN']}
+                            year="2017 (Currently develop)"
+                            desc="Re-creation of 90s arcade game - Mappy - using C++ and SDL2 library."
+                          >
+                          <div className="project-dialog-content">
+                            <div className="row">
+                              <div className="col-md-12">
+                                <div  className="project-intro">
+                                  <p>
+                                    Individual project for Game Engine Architecture course. Re-creting the 90s arcade game called Mappy using C++ and SDL2 library.
+                                    The focus of the project is to create playable game with nice game architecture.
+                                    I apply Update pattern, Observer pattern and De-coupling pattern to the implemenation of this game.
+                                    For the graphic, I reuse the sprites found from the internet.
+                                    <br/>  <br/>
+                                    One of the challenge part for me is about collision detection and response especially with the tile map. What I did to solve that is drawing state diagram eleborately
+                                    and think about what need to check in each entity state and implement from the bottom-up.
+                                    <br/>
+                                    I also plan to try applying Box2D library if I have time before the deadline of the project.
+                                    <br/><br/>
+                                    The project is now in development process. More elaborated code will be updated.
+                                    <br/>
+                                    <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Gitjub project</a>
+                                  </p>
+                                </div>
+                                <div className="img">
+                                  <img src="static/projects/content-mappy2.jpg" />
+                                  <div className="text-center">Current code structure of the project</div>
+                                </div>
+                                <div className="tags">
+                                  <ul>
+                                    <li><Chip>C++</Chip></li>
+                                    <li><Chip>SDL2</Chip></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </CardProject>
+
+                          <CardProject
+                            title="Event"
+                            subtitle="Game Project"
+                            imgSrc="static/projects/cover-mappy.jpg"
+                            tags={['ANDROID', 'DESIGN']}
+                            year="2017 (Currently develop)"
+                            desc="Re-creation of 90s arcade game - Mappy - using C++ and SDL2 library."
+                          >
+                          <div className="project-dialog-content">
+                            <div className="row">
+                              <div className="col-md-12">
+                                <div  className="project-intro">
+                                  <p>
+                                    Individual project for Game Engine Architecture course. Re-creting the 90s arcade game called Mappy using C++ and SDL2 library.
+                                    The focus of the project is to create playable game with nice game architecture.
+                                    I apply Update pattern, Observer pattern and De-coupling pattern to the implemenation of this game.
+                                    For the graphic, I reuse the sprites found from the internet.
+                                    <br/>  <br/>
+                                    One of the challenge part for me is about collision detection and response especially with the tile map. What I did to solve that is drawing state diagram eleborately
+                                    and think about what need to check in each entity state and implement from the bottom-up.
+                                    <br/>
+                                    I also plan to try applying Box2D library if I have time before the deadline of the project.
+                                    <br/><br/>
+                                    The project is now in development process. More elaborated code will be updated.
+                                    <br/>
+                                    <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Gitjub project</a>
+                                  </p>
+                                </div>
+                                <div className="img">
+                                  <img src="static/projects/content-mappy2.jpg" />
+                                  <div className="text-center">Current code structure of the project</div>
+                                </div>
+                                <div className="tags">
+                                  <ul>
+                                    <li><Chip>C++</Chip></li>
+                                    <li><Chip>SDL2</Chip></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </CardProject>
+
+                          <CardProject
+                              title="UX Project"
+                              subtitle="Game Project"
+                              imgSrc="static/projects/cover-mappy.jpg"
+                              tags={['ANDROID', 'DESIGN']}
+                              year="2017 (Currently develop)"
+                              desc="Re-creation of 90s arcade game - Mappy - using C++ and SDL2 library."
+                            >
+                            <div className="project-dialog-content">
+                              <div className="row">
+                                <div className="col-md-12">
+                                  <div  className="project-intro">
+                                    <p>
+                                      Individual project for Game Engine Architecture course. Re-creting the 90s arcade game called Mappy using C++ and SDL2 library.
+                                      The focus of the project is to create playable game with nice game architecture.
+                                      I apply Update pattern, Observer pattern and De-coupling pattern to the implemenation of this game.
+                                      For the graphic, I reuse the sprites found from the internet.
+                                      <br/>  <br/>
+                                      One of the challenge part for me is about collision detection and response especially with the tile map. What I did to solve that is drawing state diagram eleborately
+                                      and think about what need to check in each entity state and implement from the bottom-up.
+                                      <br/>
+                                      I also plan to try applying Box2D library if I have time before the deadline of the project.
+                                      <br/><br/>
+                                      The project is now in development process. More elaborated code will be updated.
+                                      <br/>
+                                      <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Gitjub project</a>
+                                    </p>
+                                  </div>
+                                  <div className="img">
+                                    <img src="static/projects/content-mappy2.jpg" />
+                                    <div className="text-center">Current code structure of the project</div>
+                                  </div>
+                                  <div className="tags">
+                                    <ul>
+                                      <li><Chip>C++</Chip></li>
+                                      <li><Chip>SDL2</Chip></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </CardProject>
+                            
                             <CardProject
                               title="Mappy"
                               subtitle="Game Project"
