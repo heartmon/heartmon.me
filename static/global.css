@@ -296,6 +296,10 @@ body {
     margin-bottom: 0px;
   }
 
+  .project-dialog-content h4 {
+    margin-top: 16px;
+  }
+
   .project-dialog-content .my-work {
     padding-left: 16px;
     padding-right: 16px;

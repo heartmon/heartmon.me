@@ -381,13 +381,14 @@ class Home extends React.Component {
                       </p>
                       <div className="section-subtitle white font-title">WHAT AM I CURRENTLY DOING?</div>
                       <p>
-                      Now I am studying in the first year of the Master's degree in Interaction Design and Technologies at
+                      Now I am studying in the second year of the Master's degree in Interaction Design and Technologies at
                       Chalmers University of Technology, Sweden.
                       Also, I am learning in Udacity's Associate Android Developer Fast Track program.
                       </p>
                       <div className="section-subtitle white font-title">WHAT AM I INTERESTED?</div>
                       <p>
-                      As now I am studying, so I am looking for summer internship or summer job in either code or design.
+                      As now I am studying and will be graduated in Summer 2018, so I am looking for summer internship and/or the full-time position after graduated
+                      in either code or design.
                       From my experiences, my most expert skillset is as a frontend developer.
                       I am interested in web development, mobile development, game development and user experience.
                       </p>
@@ -420,6 +421,37 @@ class Home extends React.Component {
                     <Tabs className="projects-tabs" tabItemContainerStyle={styles.projectsTabs.tabItemContainerStyle} inkBarStyle={styles.projectsTabs.inkBarStyle}>
                       <Tab className="projects-tab" label="DESIGN & DEVELOP" >
                         <div className="row projects-card-list-container">
+
+                        <CardProject
+                          title="Ericsson package core portal"
+                          subtitle=""
+                          imgSrc="static/projects/cover-ericsson.jpg"
+                          tags={['WEB', 'DESIGN']}
+                          year="2017 (Currently develop)"
+                          desc="Project at Ericsson as a part-time job"
+                        >
+                        <div className="project-dialog-content">
+                          <div className="row">
+                            <div className="col-md-12">
+                              <div  className="project-intro">
+                                <h4>About the project</h4>
+                                <p>
+                                  Briefly, the project is to design and implement the internal website for package core node displaying information, visualization, booking and administration.
+                                  I work as an full-stack developer creating a backend api and integrating with frontend part.
+                                </p>
+                              </div>
+                              <div className="tags">
+                                <ul>
+                                  <li><Chip>Javascript</Chip></li>
+                                  <li><Chip>NodeJS</Chip></li>
+                                  <li><Chip>Web development</Chip></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </CardProject>
+                        
                          <CardProject
                             title="Instamusic"
                             subtitle="Spotify devX Project"
@@ -442,7 +474,11 @@ class Home extends React.Component {
                                   </p>
                                   <h4>What I contribute to and learn</h4>
                                   <p>
-                                    
+                                    I tried to lead and guide how to start and organize the code as we decided to go on with frontend part first and I was the main frontend developer
+                                    in the team. We shared knowledge to each other as the aim of the event.
+                                    As the result, apart from the product itself, I learned how to organize the work in order to create minimum viable product within a very short time;
+                                    to develop product in an agile way by incrementally adding features. The product started with just only frontend part and after this part was done, we
+                                    decided to implement backend part with sentiment analysis, but we didn't manage to finish. However, at least we had an workable product to present at the end.
                                   </p>
                                 </div>
                                 <div className="img">
@@ -454,7 +490,8 @@ class Home extends React.Component {
                                     <li><Chip>Javascript</Chip></li>
                                     <li><Chip>ReactJS</Chip></li>
                                     <li><Chip>Web development</Chip></li>
-                                    <li><Chip>Hackathon</Chip></li>
+                                    <li><Chip>Glitch</Chip></li>
+                                    <li><Chip>Firebase</Chip></li>
                                   </ul>
                                 </div>
                               </div>
@@ -463,41 +500,48 @@ class Home extends React.Component {
                           </CardProject>
 
                          <CardProject
-                            title="FarmKampen"
-                            subtitle="Game Project"
-                            imgSrc="static/projects/cover-mappy.jpg"
+                            title="Farmkampen"
+                            subtitle="IxD Project"
+                            imgSrc="static/projects/cover-ixdproject.jpg"
                             tags={['ANDROID', 'DESIGN']}
-                            year="2017 (Currently develop)"
-                            desc="Re-creation of 90s arcade game - Mappy - using C++ and SDL2 library."
+                            year="2017"
+                            desc="Project in Interaction Design and Techologies"
                           >
                           <div className="project-dialog-content">
                             <div className="row">
                               <div className="col-md-12">
                                 <div  className="project-intro">
+                                  <iframe src="https://player.vimeo.com/video/239357144" width="640" height="349" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                  <h4>About the project</h4>
                                   <p>
-                                    Individual project for Game Engine Architecture course. Re-creting the 90s arcade game called Mappy using C++ and SDL2 library.
-                                    The focus of the project is to create playable game with nice game architecture.
-                                    I apply Update pattern, Observer pattern and De-coupling pattern to the implemenation of this game.
-                                    For the graphic, I reuse the sprites found from the internet.
-                                    <br/>  <br/>
-                                    One of the challenge part for me is about collision detection and response especially with the tile map. What I did to solve that is drawing state diagram eleborately
-                                    and think about what need to check in each entity state and implement from the bottom-up.
-                                    <br/>
-                                    I also plan to try applying Box2D library if I have time before the deadline of the project.
+                                    It was the result of 'Project in Interaction Design' course. I and my group member developed an interactive system called Farmkampen.
+                                    The theme of this project was Universeum () to design and develop the product with the aim of children's transformative experience and partipatory design that 
+                                    will help the children learn about environment, rainforest, ocean, science, health or techlonogy in the long term.
+                                    We decided to create 'Farmkampen' with critical design in mind. The product consists of tablet game and the one big screen to show the information.
+                                    Briefly, the aim of the iPad game is to cut down the tree and plant the crops in order to produce the hamburgers as much as possible, 
+                                    however we twisted at the end by letting the children seeing the big picture from the screen behind the tablet how much they contribute in destroying the rainforest and how many animals are let homeless.
+                                    We intent to show the result of argiculture that affects the rainforest and wanted to teach the children about Tregedy of Common.
                                     <br/><br/>
-                                    The project is now in development process. More elaborated code will be updated.
-                                    <br/>
-                                    <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Gitjub project</a>
+                                    <a href="http://idxpo.se/current/farmkampen/" target="_blank">Link to information website</a>
+                                  </p>
+                                  <h4>What I contributed and learned</h4>
+                                  <p>
+                                    Apart from idea generation and writing report, my main part was to develop tablet game with Unity. Also, help a bit with the api development in NodeJS for receiving and updating data from the game.
+                                    I learned a lot in the project, for example, to apply the knowledge and skill from the first year of study to the real project with real stakeholders.
+                                    I also improved in teamwork and how to plan the work within time constraints.
                                   </p>
                                 </div>
                                 <div className="img">
-                                  <img src="static/projects/content-mappy2.jpg" />
-                                  <div className="text-center">Current code structure of the project</div>
+                                  <img src="static/projects/content-ixdproject1.jpg" />
+                                  <div className="text-center">The tablet game and the big screen at the exhibition day</div>
                                 </div>
                                 <div className="tags">
                                   <ul>
-                                    <li><Chip>C++</Chip></li>
-                                    <li><Chip>SDL2</Chip></li>
+                                    <li><Chip>User Interface Design</Chip></li>
+                                    <li><Chip>Unity</Chip></li>
+                                    <li><Chip>Critical Design</Chip></li>
+                                    <li><Chip>Web development</Chip></li>
+                                    <li><Chip>NodeJS</Chip></li>
                                   </ul>
                                 </div>
                               </div>
@@ -506,41 +550,49 @@ class Home extends React.Component {
                           </CardProject>
 
                           <CardProject
-                            title="Event"
-                            subtitle="Game Project"
-                            imgSrc="static/projects/cover-mappy.jpg"
+                            title="EVNT"
+                            subtitle="Mobile Computing Project"
+                            imgSrc="static/projects/cover-evnt.jpg"
                             tags={['ANDROID', 'DESIGN']}
-                            year="2017 (Currently develop)"
-                            desc="Re-creation of 90s arcade game - Mappy - using C++ and SDL2 library."
+                            year="2017"
+                            desc="Android app. for increase and simplify the interaction between lecturer and attendees"
                           >
                           <div className="project-dialog-content">
                             <div className="row">
                               <div className="col-md-12">
                                 <div  className="project-intro">
+                                  <h4>About the project</h4>
                                   <p>
-                                    Individual project for Game Engine Architecture course. Re-creting the 90s arcade game called Mappy using C++ and SDL2 library.
-                                    The focus of the project is to create playable game with nice game architecture.
-                                    I apply Update pattern, Observer pattern and De-coupling pattern to the implemenation of this game.
-                                    For the graphic, I reuse the sprites found from the internet.
-                                    <br/>  <br/>
-                                    One of the challenge part for me is about collision detection and response especially with the tile map. What I did to solve that is drawing state diagram eleborately
-                                    and think about what need to check in each entity state and implement from the bottom-up.
-                                    <br/>
-                                    I also plan to try applying Box2D library if I have time before the deadline of the project.
+                                    This was a group project in Mobile Computing course at Chalmers.
+                                    The project was about design and develop a mobile application within the theme of activity-centered and co-located interaction within the library.
+                                    Our idea was to increase the interaction between the lecturer and the attendees at library's events and lectures that could happen, for example, to follow up
+                                    after the lecture was ended, to increase the opportunity of attendees who have questions to the lecturer.
+                                    The result was an android application that two roles of users which are Lecturer and Attendees can interact with each other by chat and poll. 
+                                    The example usage scenario was first Lecturer creates the room which will see the room id at the top right corner. Then any attendees 
+                                    can join the room by entering the room id and click join. In the room together, everyone can chat and discuss about the lecture and 
+                                    Lecturer can create poll for Attendees to answer on.
                                     <br/><br/>
-                                    The project is now in development process. More elaborated code will be updated.
-                                    <br/>
-                                    <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Gitjub project</a>
+                                    We also planned to add more functionalities of posting questions and uploading learning's materials in the room in the future version.
+                                    <br/><br/>
+                                    <a className="link" href="https://github.com/Kvist1/Evnt" target="_blank">Gitjub project</a>
+                                  </p>
+                                  <h4>What I contributed and learned</h4>
+                                  <p>
+                                    I worked as android developer to develop the app with my other two friends while the other two worked on design. Because we were all quite new with android development, we learned quite a lot
+                                    by practically doing. We tried different ways of using ListView, RecyclerView and Fragment in order to achieve what we designed for. 
+                                    I also learned how to use Firebase from my friend including real-time database and firebase datastore which was very easy to start with. 
+                                    Moreover, I got an experience in applying the knowledge of design method and process in the real project (e.g. ideation - brainstorming, interview with the staff at library, visit the real place).
                                   </p>
                                 </div>
                                 <div className="img">
-                                  <img src="static/projects/content-mappy2.jpg" />
-                                  <div className="text-center">Current code structure of the project</div>
+                                  <img src="static/projects/content-evnt1.jpg" />
+                                  <div className="text-center">Example of screenshots</div>
                                 </div>
                                 <div className="tags">
                                   <ul>
-                                    <li><Chip>C++</Chip></li>
-                                    <li><Chip>SDL2</Chip></li>
+                                    <li><Chip>Android</Chip></li>
+                                    <li><Chip>Design</Chip></li>
+                                    <li><Chip>Firebase</Chip></li>
                                   </ul>
                                 </div>
                               </div>
@@ -550,40 +602,43 @@ class Home extends React.Component {
 
                           <CardProject
                               title="UX Project"
-                              subtitle="Game Project"
-                              imgSrc="static/projects/cover-mappy.jpg"
-                              tags={['ANDROID', 'DESIGN']}
-                              year="2017 (Currently develop)"
-                              desc="Re-creation of 90s arcade game - Mappy - using C++ and SDL2 library."
+                              subtitle="Farmcation"
+                              imgSrc="static/projects/cover-farmcation.jpg"
+                              tags={['DESIGN']}
+                              year="2017"
+                              desc="Individual project in Design for User Experience course"
                             >
                             <div className="project-dialog-content">
                               <div className="row">
                                 <div className="col-md-12">
                                   <div  className="project-intro">
+                                    <h4>About the project</h4>
                                     <p>
-                                      Individual project for Game Engine Architecture course. Re-creting the 90s arcade game called Mappy using C++ and SDL2 library.
-                                      The focus of the project is to create playable game with nice game architecture.
-                                      I apply Update pattern, Observer pattern and De-coupling pattern to the implemenation of this game.
-                                      For the graphic, I reuse the sprites found from the internet.
-                                      <br/>  <br/>
-                                      One of the challenge part for me is about collision detection and response especially with the tile map. What I did to solve that is drawing state diagram eleborately
-                                      and think about what need to check in each entity state and implement from the bottom-up.
-                                      <br/>
-                                      I also plan to try applying Box2D library if I have time before the deadline of the project.
-                                      <br/><br/>
-                                      The project is now in development process. More elaborated code will be updated.
-                                      <br/>
-                                      <a className="link" href="https://github.com/heartmon/MappySDL/" target="_blank">Gitjub project</a>
+                                      This individual project was in Design for User Experience course; to come up with idea and design the digital product that invoke 
+                                      one emotion of users and related with one of two themes - Critical Design and Spatial and Temporal design.
+                                      My project was in the theme of Spatial and Temporal design invoking the playfulness emotion.
+                                      The idea was location-based game like Pokemon Go. but doing a farm instead of catching Pokemon. Bascially, players will 
+                                      go to the particular location and create their own farm. They will need to comeback to the same location again in hours or days in order to water, grow, havest 
+                                      their plants. There will be a social event that make use of space and time to incorparate players to play and solve the quest together.
+                                    </p>
+                                    <h4>What I contributed and learned</h4>
+                                    <p>
+                                      I learned how difficult to come up with ideas individually compared to work in group. I got experience in design the game and how to 
+                                      manage the scope of the project to suit with limited time and to incorperate related literatures in the whole design process.
                                     </p>
                                   </div>
                                   <div className="img">
-                                    <img src="static/projects/content-mappy2.jpg" />
-                                    <div className="text-center">Current code structure of the project</div>
+                                    <img src="static/projects/content-farmcation1.jpg" />
+                                    <div className="text-center">Mockup example</div>
+                                  </div>
+                                  <div className="img">
+                                    <img src="static/projects/content-farmcation2.jpg" />
+                                    <div className="text-center">Mockup example</div>
                                   </div>
                                   <div className="tags">
                                     <ul>
-                                      <li><Chip>C++</Chip></li>
-                                      <li><Chip>SDL2</Chip></li>
+                                      <li><Chip>User Experience Design</Chip></li>
+                                      <li><Chip>User Interface Design</Chip></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -637,7 +692,7 @@ class Home extends React.Component {
                               subtitle="My portofio website"
                               imgSrc="static/projects/logo-heartmon.png"
                               tags={['ANDROID', 'DESIGN']}
-                              year="2017 (Currently develop)"
+                              year="2017"
                               desc=""
                             >
                             <div className="project-dialog-content">
@@ -672,7 +727,7 @@ class Home extends React.Component {
                               subtitle="Udacity course's project"
                               imgSrc="static/projects/android-app-nologo.png"
                               tags={['ANDROID', 'DESIGN']}
-                              year="2017 (Currently develop)"
+                              year="2017"
                               desc="Application showing list of movies and the detail of each movie"
                             >
                             <div className="project-dialog-content">
@@ -703,24 +758,28 @@ class Home extends React.Component {
                             </div>
                             </CardProject>
                             <CardProject
-                              title="Fund raising web"
-                              imgSrc="static/projects/cover-kb.jpg"
-                              tags={['ANDROID', 'DESIGN']}
-                              year="2017 (Currently develop)"
-                              desc=""
+                              title="Kidsbazaar"
+                              imgSrc="static/projects/cover-kidsbazaar.jpg"
+                              tags={['FRONTEND', 'DESIGN']}
+                              year="2017"
+                              desc="Fundraising web for children"
                             >
                             <div className="project-dialog-content">
                               <div className="row">
                                 <div className="col-md-12">
                                   <div  className="my-work">
-                                    <h4 className="font-title text-uppercase">My work</h4>
-                                    <p>
-                                      I am a Frontend developer converting designs from designer into the html/css template and connecting frontend side to
-                                      backend web services (using AngularJS as main frontend framework).
-                                      I communicate remotely with designer and backend developer by Trello and Zeplin.
-                                      <br/>  <br/>
-                                      Now the project is still in beta version and in the development phase and I cannot reveal more about its information.
-                                    </p>
+                                  <h4>About the project</h4>
+                                  <p>
+                                    This startup project is a website that aims for the school/group of children to help them with the fundraising to get the money for their activities.
+                                    Briefly, 'responsible adults' will create the team, the 'kids' will join and they will sell the product to the 'supporters' resulting in earning the 
+                                    money from every product they sold.
+                                    <br/>
+                                    The website is now launched. <a target="_blank" className="link" href="https://www.kidsbazaar.uk">https://www.kidsbazaar.uk</a>                                      
+                                  </p>
+                                  <h4>What I contributed and learn</h4>
+                                  <p>I am a Frontend developer converting designs from designer into the html/css template and connecting frontend side to
+                                    backend web services (using AngularJS as main frontend framework).
+                                    I communicate remotely with designer and backend developer by Trello and Zeplin.</p>
                                   </div>
                                   <div className="tags">
                                     <ul>
@@ -1356,7 +1415,7 @@ class Home extends React.Component {
                             </CardProject>
                         </div>
                       </Tab>
-                      <Tab className="projects-tab" label="DESIGN" >
+                      {/* <Tab className="projects-tab" label="DESIGN" >
                         <div className="row projects-card-list-container">
                           <CardProject
                             title="heartmon.me"
@@ -1819,9 +1878,9 @@ class Home extends React.Component {
                           </div>
                           </CardProject>
                         </div>
-                      </Tab>
+                      </Tab> */}
 
-                      <Tab className="projects-tab" label="GAME">
+                      {/* <Tab className="projects-tab" label="GAME">
                         <div className="row projects-card-list-container">
                           <CardProject
                             title="Mappy"
@@ -1985,7 +2044,7 @@ class Home extends React.Component {
                           </div>
                           </CardProject>
                         </div>
-                      </Tab>
+                      </Tab> */}
 
   </Tabs>
                     </div>
